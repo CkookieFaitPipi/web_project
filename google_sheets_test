@@ -13,7 +13,7 @@ spreadsheet = client.open("test_sheet")
 
 
 def help(update, context):
-    update.message.reply_text("Этот бот принимает только номер вашего заказа, указанного в...")
+    update.message.reply_text('введите номер вашего заказа, указанного в "эл. письме".')
 
 
 def get_stat(id):
